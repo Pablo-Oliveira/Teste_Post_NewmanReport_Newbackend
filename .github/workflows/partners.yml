@@ -6,9 +6,7 @@ name: Partners
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: |
-        master
-        sandro-augusto
+    branches: [ master ]
   pull_request:
     branches: [ master ]
 
