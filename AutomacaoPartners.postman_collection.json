@@ -231,9 +231,6 @@
 							"    pm.expect(pm.variables.get(\"Complement\")).to.eql(JSON.parse(responseBody).address[0].complement);\r",
 							"});\r",
 							"\r",
-							"pm.test(\"Check is LoginUser is True\", function () {\r",
-							"    pm.expect(pm.variables.get(\"LoginUser\")).to.eql(JSON.parse(responseBody).audit[0].registeredBy.userLogin);\r",
-							"});\r",
 							"\r",
 							"\r",
 							"\r",
@@ -259,7 +256,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -403,7 +400,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "\r\n{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}\r\n",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -571,7 +568,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "\r\n{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\",\r\n            \"idCompany\": \"{{IdCompany}}\"\r\n        }\r\n    ]\r\n}\r\n",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -668,7 +665,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -764,7 +761,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"*\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"*\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -860,7 +857,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaq\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaq\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -956,7 +953,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1052,7 +1049,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"teste\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"teste\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1149,7 +1146,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaq\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\",\r\n            \"idCompany\": \"{{IdCompany}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaq\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1245,7 +1242,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1341,7 +1338,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"teste\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"teste\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1437,7 +1434,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1533,7 +1530,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"123456\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"123456\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1630,7 +1627,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"********\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"********\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1726,7 +1723,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1821,7 +1818,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1916,7 +1913,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"12345240873949\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"12345240873949\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -2011,7 +2008,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"111112\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"111112\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -2108,7 +2105,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"********\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"********\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -2204,7 +2201,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -2300,7 +2297,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -2396,7 +2393,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"00000000000000000000000000000000000000\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"00000000000000000000000000000000000000\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -2492,7 +2489,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -2588,7 +2585,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaq\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaq\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -2684,7 +2681,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"1\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"1\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -2780,7 +2777,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -2876,7 +2873,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"1\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"1\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -2972,7 +2969,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"qe\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"qe\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -3068,7 +3065,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -3164,7 +3161,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"*****!@#\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"*****!@#\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -3260,7 +3257,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*q\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*q\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -3356,7 +3353,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -3432,7 +3429,7 @@
 							"});\r",
 							"\r",
 							"pm.test(\"Rua com limite de caracteres de 50!\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"Limite de caracteres excedido. É pemitido apenas 50 caracteres no campo Rua/Logradouro.\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"O campo 'logradouro' deve possuir no máximo 80 caracteres.\");\r",
 							"});\r",
 							""
 						],
@@ -3452,7 +3449,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaq\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqaaaaaaaaaaaaaaaaaaaaqaaaaaaaaaa\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -3548,7 +3545,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"****!!!!!\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"****!!!!!\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -3644,7 +3641,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"00000000000000000000000\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"00000000000000000000000\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -3740,7 +3737,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"!!!*****\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"!!!*****\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -3836,7 +3833,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqaaaaaaaaaa\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqaaaaaaaaaa\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -3932,103 +3929,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"!@!#@#!@#$\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"{{LoginUser}}\"\r\n        }\r\n    ]\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{dev}}/partner",
-					"host": [
-						"{{dev}}"
-					],
-					"path": [
-						"partner"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "partners - LoginUser is field",
-			"event": [
-				{
-					"listen": "prerequest",
-					"script": {
-						"exec": [
-							"const minNumber = 100000000;\r",
-							"const maxNumber = 999999999;\r",
-							"const randomNumber = Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;\r",
-							"\r",
-							"pm.environment.set(\"CompanyName\", pm.variables.replaceIn('{{$randomFirstName}}') + \" \" + pm.variables.replaceIn('{{$randomFirstName}}'));\r",
-							"\r",
-							"pm.environment.set(\"FullName\", pm.variables.replaceIn('{{$randomFirstName}}') + \" \" + pm.variables.replaceIn('{{$randomFirstName}}'));\r",
-							"\r",
-							"pm.environment.set(\"AreaCode\", \"0\" + Math.floor(Math.random() * 99));\r",
-							"\r",
-							"pm.environment.set(\"Phone\", pm.environment.get(\"AreaCode\") + randomNumber);\r",
-							"\r",
-							"pm.environment.set(\"id_company\", \"12345\" + randomNumber);\r",
-							"\r",
-							"pm.environment.set(\"Mail\", Math.floor(Math.random() * 999999) + \"_qacoders\" + pm.variables.replaceIn('{{$randomEmail}}'));\r",
-							"\r",
-							"pm.environment.set(\"AddressNumber\", Math.floor(Math.random() * 99999));\r",
-							"\r",
-							"let num5dig = 10000 + Math.floor(Math.random() * 89999)\r",
-							"pm.environment.set(\"ZipCode\", num5dig + \"000\");\r",
-							"\r",
-							"pm.environment.set(\"AddressNumber\", Math.floor(Math.random() * 99999));\r",
-							"\r",
-							"pm.environment.set(\"Complement\", pm.variables.replaceIn('{{$randomWord}}'));\r",
-							"\r",
-							"pm.environment.set(\"City\", pm.variables.replaceIn('{{$randomCity}}'));\r",
-							"\r",
-							"pm.environment.set(\"Street\", pm.variables.replaceIn('{{$randomStreetName}}'));\r",
-							"\r",
-							"pm.environment.set(\"Uf\", pm.variables.replaceIn('{{$randomCountryCode}}'));\r",
-							"\r",
-							"pm.environment.set(\"district\", pm.variables.replaceIn('{{$randomCity}}'));\r",
-							"\r",
-							"\r",
-							"\r",
-							"// let num5dig = 10000 + Math.floor(Math.random() * 89999)\r",
-							"// console.log(num5dig)"
-						],
-						"type": "text/javascript"
-					}
-				},
-				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"pm.test(\"Status code is 400\", function () {\r",
-							"    pm.response.to.have.status(400);\r",
-							"});\r",
-							"\r",
-							"pm.test(\"LoginUser é obrigatório!\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"O campo LoginUser é obrigatório.\");\r",
-							"});\r",
-							""
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"warning": "This is a duplicate header and will be overridden by the authorization header generated by Postman.",
-						"key": "Authorization",
-						"value": "{{token_login}}",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"{{Complement}}\"\r\n        }\r\n    ],\r\n    \"audit\": [\r\n        {\r\n            \"loginUser\": \"\",\r\n            \"idCompany\": \"{{IdCompany}}\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"companyName\": \"{{CompanyName}}\",\r\n    \"responsibleName\": \"{{FullName}}\",\r\n    \"mail\": \"{{Mail}}\",\r\n    \"phone\": \"{{Phone}}\",\r\n    \"cnpj\": \"{{id_company}}\",\r\n    \"address\": [\r\n        {\r\n            \"country\": \"Brasil\",\r\n            \"zipCode\": \"{{ZipCode}}\",\r\n            \"city\": \"{{City}}\",\r\n            \"state\": \"{{Uf}}\",\r\n            \"district\": \"{{district}}\",\r\n            \"street\": \"{{Street}}\",\r\n            \"number\": \"{{AddressNumber}}\",\r\n            \"complement\": \"!@!#@#!@#$\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
